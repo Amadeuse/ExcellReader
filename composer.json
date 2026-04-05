@@ -1,0 +1,13 @@
+{
+  "name": "excell/project",
+  "description": "Excel reader project using OpenSpout",
+  "type": "project",
+  "require": {
+    "openspout/openspout": "^4.28"
+  },
+  "autoload": {
+    "psr-4": {
+      "Excell\\": "src/"
+    }
+  }
+}
