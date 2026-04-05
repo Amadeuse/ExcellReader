@@ -25,9 +25,14 @@ It reads files from the `upload/` folder and returns the content as an **array**
 
 ## 📦 Installation
 
+After cloning the repository, install all required dependencies with Composer:
+
 ```bash
 composer install
 ```
+
+This will automatically install `openspout/openspout` and generate the autoload files.
+You do **not** need to run `composer require openspout/openspout` manually.
 
 ---
 
